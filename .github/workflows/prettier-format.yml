@@ -19,5 +19,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          prettier_options: --write 'ui/**/*.{json,css,js,ts,tsx}'
+          prettier_options: '--write ui/**/*.{json,css,js,ts,tsx}'
           commit_message: "format: prettier"
